@@ -1,0 +1,40 @@
+﻿@media screen and (max-width: 480px) {
+/*ヘッダーバナー*/
+#ipnsh-item-header{
+height: 115px;
+/*height:47px;*/
+position: relative;
+}
+
+#headbanner2  {
+display: block;
+width:22.03%;/*フロートバナーの横幅*/
+height:auto ;/*バナーの縦幅*/
+margin: 0;
+padding: 0;
+position:fixed;
+top: 200px;
+right: 0px;
+z-index:9005;}
+}
+
+@media screen and (min-width: 480px) {
+   /* 表示領域が800px以上の場合に適用するスタイル */
+/*ヘッダーバナー*/
+#ipnsh-item-header{
+height: 115px;
+/*height:47px;*/
+position: relative;
+}
+
+#headbanner2  {
+display: block;
+width:15%;/*フロートバナーの横幅*/
+height:auto ;/*バナーの縦幅*/
+margin: 0;
+padding: 0;
+position:fixed;
+top: 100px;
+right: 0px;
+z-index:9005;}
+}

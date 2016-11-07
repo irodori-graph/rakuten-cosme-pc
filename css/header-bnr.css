@@ -1,0 +1,18 @@
+﻿
+/*ヘッダーバナー*/
+#ipnsh-item-header{
+height: 115px;
+/*height:47px;*/
+}
+
+
+
+#headbanner2  {
+display: block;
+width:95%;/*フロートバナーの横幅*/
+height:auto ;/*バナーの縦幅*/
+margin: 0;
+padding: 0;
+position: absolute;
+top: 57px;
+z-index:9005;}
