@@ -58,7 +58,7 @@ a:hover p{
 	left: 15px;
 }
 
-/*-------- �w�b�_�[�@--------*/
+/*-------- ƒwƒbƒ_[@--------*/
 
 header{
 	width:100%;
@@ -164,7 +164,7 @@ ul.menu_brand {
 }
 }
 
-/* float�N���A */
+/* floatƒNƒŠƒA */
 .menu:before,
 .menu:after {
     content: " ";
@@ -933,7 +933,7 @@ iframe.iframSide{
 	color:#414141;
 }
 
-/*------�J�e�S���[�摜------*/
+/*------ƒJƒeƒSƒŠ[‰æ‘œ------*/
 
 .aside01{background:url(../img/icon/ico_cat_01.jpg);background-repeat:no-repeat;background-position:top bottom;}
 .aside02{background:url(../img/icon/ico_cat_02.jpg);background-repeat:no-repeat;background-position:top bottom;}
@@ -1450,7 +1450,7 @@ td.event3day_rakuten      {
 
 
 #couponArea .couponLogo{
-	width:40%;
+	margin-right: 20px;
 	float:left;
 	padding-bottom:5px;
 }
@@ -1462,7 +1462,6 @@ td.event3day_rakuten      {
 }
 
 #couponArea .couponMenu{
-	width:60%;
 	float:left;
 	padding-bottom:5px;
 }
@@ -1528,18 +1527,29 @@ td.event3day_rakuten      {
 }
 
 /*---------------------------*/
-
-a#rc_rightArea {
- width: 56px; /*�摜�̑S�̕�*/
+#rc_rightArea{
  position: fixed;
  top: 100px;
- right:0px; /*�}�E�X���悹�����ɏo�Ă��镝*/
- display: inline-block;
+ right:0px; /*ƒ}ƒEƒX‚ðæ‚¹‚½Žž‚Éo‚Ä‚­‚é•*/
+ }
 
+ #rc_rightArea ul li{
+ 	list-style: none;
+ }
+
+#rc_rightArea ul li:nth-child(1) a{
+ width: 56px; /*‰æ‘œ‚Ì‘S‘Ì•*/
+ display: inline-block;
  z-index: 9999;
 }
 
-a#rc_rightArea:hover{
+#rc_rightArea ul li:nth-child(2) a{
+ width: 56px; /*‰æ‘œ‚Ì‘S‘Ì•*/
+ display: inline-block;
+ z-index: 9999;
+}
+
+#rc_rightArea ul li a:hover{
  right: 0px;
 }
 
@@ -1567,4 +1577,21 @@ a.mb20{
 	display: block;
 	margin: 0 auto;
 }
+
+/*30%OFF追加1110---------------------------*/
+.flowting{
+	background-color: #ff4b08;
+	padding: 5px 0;
+	width: 100%;
+}
+
+.flowting p{
+	width: 1172px;
+	margin: 0 auto;
+}
+
+
+
+
+
 
