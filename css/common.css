@@ -328,7 +328,7 @@ header span img{
 	width:100%;
 	height:auto;
 	margin:0;
-	padding:0;
+	padding:0 0 20px 0;
 	background:#f9f7f0;
 }
 
@@ -390,10 +390,8 @@ header span img{
 }
 
 .pickSectionArea .right{
-	width:43%;
 	float:left;
 	padding-left:40px;
-	text-align:right;
 }
 
 .pickSectionArea .left p{
@@ -452,11 +450,9 @@ header span img{
 }
 
 .osusume01,.osusume03,.osusume02,.osusume04{
-	width:80%;
 	color:#fff;
 	margin:15px 0;
-	padding:8px 0;
-	text-align:center;
+	padding:8px 10px;
 	font-family:'SimHei';
 	font-weight:bold;
 	border-radius: 5px;
