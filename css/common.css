@@ -17,6 +17,27 @@ h1 {
 	font-weight:normal;
 }
 
+.indent{
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+}
+
+#closedArea{
+	width:100%;
+	height:auto;
+}
+
+#closed{
+	background:url(http://image.rakuten.co.jp/beautygarden-shop/cabinet/imgrc0067228432.jpg) no-repeat 0 0;
+	background-size:100%;
+	width:640px;
+	height:526px;
+	margin:10px auto 0 auto;
+	padding:0px;
+}
+
 a:hover{
 	opacity: 0.6;
 }
